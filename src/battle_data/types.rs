@@ -11,6 +11,6 @@ impl Type{
     
 }
 
-pub const NORMAL: Type = Type{Cow::Borrowed(("Normal"))};
-const type_dict: &'static [&'static  = &[&[NORMAL, NORMAL.name]] 
-
+pub const NORMAL: Type = Type{
+    name: Cow::Borrowed("Normal")
+};
